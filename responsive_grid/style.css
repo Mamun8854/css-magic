@@ -1,0 +1,14 @@
+.box {
+    height: 200px;
+    width: 100%;
+    background-color: chartreuse;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding:0 4px;
+
+}
+.grid-class {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
